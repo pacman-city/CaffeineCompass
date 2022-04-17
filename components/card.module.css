@@ -1,0 +1,26 @@
+.cardLink {
+   box-shadow: 2px 2px 12px 5px #2c210d96;
+
+   border-radius: 0.5rem;
+   padding: 0 1rem 1.25rem;
+   backdrop-filter: blur(3px);
+}
+
+.cardHeader {
+   margin: 0.75rem 0;
+
+   font-size: 1.5rem;
+   color: var(--text-white-100);
+   font-weight: 800;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   max-width: 100%;
+}
+
+.cardImage {
+   border-radius: 0.25rem;
+   object-fit: cover;
+}

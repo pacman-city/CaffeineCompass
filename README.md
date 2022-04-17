@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [CaffeineCompass](https://caffeinecompass.netlify.app/)
 
-## Getting Started
+<br/>
 
-First, run the development server:
+[![airtable](https://img.shields.io/badge/airtable-0.11.5-blue.svg?style=for-the-badge&labelColor=black&logo=airtable)](https://www.npmjs.com/package/airtable)
+[![classnames](https://img.shields.io/badge/classnames-2.3.2-blue.svg?style=for-the-badge&labelColor=black&logo=npm)](https://www.npmjs.com/package/classnames)
+[![next](https://img.shields.io/badge/next-12.3.1-blue.svg?style=for-the-badge&labelColor=black&logo=next.js)](https://nextjs.org/)
+[![react](https://img.shields.io/badge/react-18.2.0-blue.svg?style=for-the-badge&labelColor=black&logo=react)](https://reactjs.org/)
+[![react-dom](https://img.shields.io/badge/react--dom-18.2.0-blue.svg?style=for-the-badge&labelColor=black&logo=react)](https://reactjs.org/)
+[![swr](https://img.shields.io/badge/swr-1.3.0-blue.svg?style=for-the-badge&labelColor=black&logo=npm)](https://www.npmjs.com/package/swr)
+[![unsplash-js](https://img.shields.io/badge/unsplash--js-7.0.15-blue.svg?style=for-the-badge&labelColor=black&logo=npm)](https://www.npmjs.com/package/unsplash-js)
+[![Лицензия](https://img.shields.io/github/license/kluevevga/CaffeineCompass?color=blue&style=for-the-badge&labelColor=black&logo=github)](https://github.com/kluevga/CaffeineCompass/blob/master/LICENSE)
+[![Code Size](https://img.shields.io/github/languages/code-size/kluevevga/CaffeineCompass?style=for-the-badge&labelColor=black&logo=github)](https://github.com/kluevga/CaffeineCompass)
+[![Netlify Status](https://img.shields.io/netlify/c873c872-5500-481b-98eb-58e974abe8d2?style=for-the-badge&logo=netlify&logoColor=blue&labelColor=black)](https://app.netlify.com/sites/velvety-meerkat-5e8c4e/overview)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## О проекте
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Приложение CaffeineCompass позволяет найти ближайшую кофейню в вашем городе ☕.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Запуск приложения
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Клонируйте репозиторий:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   ```bash
+   git clone https://github.com/kluevevga/CaffeineCompass.git
+   ```
 
-## Learn More
+3. Перейдите в папку проекта:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   cd CaffeineCompass
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Установите зависимости:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+5. Запустите приложение:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Приложение будет доступно по адресу [http://localhost:3000](http://localhost:3000).
+
+## Лицензия 📜
+
+Этот проект распространяется под лицензией `MIT`. Дополнительную информацию можно найти в
+файле [LICENSE](https://github.com/kluevevga/CaffeineCompass/blob/master/LICENSE).
